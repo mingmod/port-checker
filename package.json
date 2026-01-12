@@ -1,6 +1,6 @@
 {
   "name": "@innce/port-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mini app to run servers for provided ports and check availability",
   "main": "src/index.js",
   "types": "src/index.d.ts",
