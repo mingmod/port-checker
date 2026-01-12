@@ -1,4 +1,4 @@
-# port-checker
+# @innce/port-checker
 
 Lightweight Node.js utility for scanning TCP ports on multiple hosts.
 Supports chunked scanning, configurable timeouts, and clear reporting of open and closed ports.
@@ -19,7 +19,7 @@ Supports chunked scanning, configurable timeouts, and clear reporting of open an
 ## Installation
 
 ```bash
-npm install port-checker
+npm install @innce/port-checker
 ```
 
 ---
@@ -29,7 +29,7 @@ npm install port-checker
 ### Basic example
 
 ```js
-const { scanPorts } = require('port-checker');
+const { scanPorts } = require('@innce/port-checker');
 
 (async () => {
   const hosts = ['127.0.0.1', '192.168.1.3'];
@@ -88,7 +88,7 @@ Scans a list of ports on multiple hosts.
 Checks whether a single TCP port is open.
 
 ```js
-const { checkPort } = require('port-checker');
+const { checkPort } = require('@innce/port-checker');
 
 const isOpen = await checkPort('127.0.0.1', 80);
 ```
