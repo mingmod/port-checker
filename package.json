@@ -1,0 +1,39 @@
+{
+  "name": "port-checker",
+  "version": "1.0.0",
+  "description": "Mini app to run servers for provided ports and check availability",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test"
+  },
+  "author": "Sergey Arustamyan",
+  "license": "MIT",
+  "keywords": [
+    "port",
+    "scanner",
+    "network",
+    "nodejs",
+    "tcp"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/index.js",
+    "src/checker.js",
+    "src/check-port.js",
+    "src/helpers.js",
+    "src/start-server.js",
+    "src/index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  }
+}
