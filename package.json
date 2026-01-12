@@ -1,5 +1,5 @@
 {
-  "name": "port-checker",
+  "name": "@innce/port-checker",
   "version": "1.0.0",
   "description": "Mini app to run servers for provided ports and check availability",
   "main": "src/index.js",
